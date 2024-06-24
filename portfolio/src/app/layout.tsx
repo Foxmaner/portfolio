@@ -19,13 +19,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="absolute w-1/4 shadow-2xl h-screen">
-          <Sidebar/>
+        <div className="flex flex-col md:flex-row max-w-full">
+          <div className="md:min-w-500 shadow-2xl md:h-screen w-full md:w-auto">
+            <Sidebar />
+          </div>
+          <div className="md:min-w-3/4 w-full">
+            {children}
+          </div>
         </div>
-        <div className="absolute top-0 left-1/4 w-3/4">
-        {children}
-        </div>
-        </body>
+      </body>
     </html>
   );
 }

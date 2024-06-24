@@ -7,30 +7,35 @@ import TimelineGraph from "./components/timelineGraph";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="w-1/2 text-center text-2xl">
+    <main className="flex min-h-screen flex-col  justify-between p-24">
+      <h1 className="font-bold text-3xl">
         Eskil Brännerud
       </h1>
-      <h2 className="w-1/2 text-center text-1xl">
-        Hi! And welcome to my portfolio.
+      <h2 className="text-2xl">
+        Student i Mjukvaruteknik
       </h2>
-      <div className="flex flex-row items-center justify-center mb-10 w-full">
-        <AnimatedTooltip items={programming_icons} />
-      </div>
+      <p className=" text-1xl">
+      Hej och välkommen till min hemsida! Mitt namn är Eskil och studerar nu
+      4:e året som Civilingenjör i Mjukvaruteknik på Linköpings universitet.
+      </p>
+      
       
       <div className="flex">
-        <h1 className="w-1/2 text-center text-1xl">
+        <h1 className="font-bold text-2xl">
           Erfarenheter
         </h1>
+        
       </div>
+      <div className="border-t border-2 border-black w-1/5"></div>
       <TimelineGraph />
 
 
       <div className="flex">
-        <h1 className="w-1/2 text-center text-1xl">
+        <h1 className="font-bold text-2xl">
           Utbildning
         </h1>
       </div>
+      <div className="border-t border-2 border-black w-1/5"></div>
       <TimelineGraph />
     </main>
   );

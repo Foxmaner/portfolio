@@ -17,9 +17,9 @@ export default function Sidebar() {
             <h3 className='font-bold'>Location</h3>
             <p>Linköping, Sweden</p>
             <h3 className='font-bold'>Phone</h3>
-            <p>(+46)70215176</p>
+            <a href="tel:+46702151716">070-215 17 16</a>
             <h3 className='font-bold'>Email</h3>
-            <p>eskil.brann@gmail.com</p>
+            <a href="mailto:eskil.brann@gmail.com">eskil.brann@gmail.com</a>
             <h3 className='font-bold'>Github</h3>
 
 

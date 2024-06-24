@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import Navbar from "./navbar";
+import Sidebar from "./sidebar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,8 +19,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
+        <div className="absolute w-1/4 shadow-2xl h-screen">
+          <Sidebar/>
+        </div>
+        <div className="absolute top-0 left-1/4 w-3/4">
         {children}
+        </div>
         </body>
     </html>
   );

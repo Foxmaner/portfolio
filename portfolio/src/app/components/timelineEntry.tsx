@@ -1,13 +1,18 @@
 import Image from "next/image";
 
 
-export default function timelineEntry({data}: {data: any}) {
-    
+export default function timelineEntry({ data }: { data: any }) {
+
   return (
-    <li className="">
-        {data.startDate} - {data.endDate}
-        <h1>{data.title}</h1>
-        <p>{data.description}</p>
-    </li>
+    <div className="relative w-full">
+      <div className="absolute -top-0.5 z-10 -ml-2.5 h-5 w-5 rounded-full justify-center bg-blue-600">
+        
+      </div>
+      <div className="ml-6">
+        <h4 className="font-bold text-blue-500">{data.title} </h4>
+        <p className="mt-2 max-w-screen-sm text-sm text-gray-500">{data.description}</p>
+        <span className="mt-1 block text-sm font-semibold text-blue-500">{data.startDate + " - " + data.endDate}</span>
+      </div>
+    </div>
   );
 }

@@ -23,10 +23,12 @@ export default function timelineGraph() {
         },
     ];
   return (
-    <ul className="">
+    
+    <div className="space-y-6 border-l-2 border-dashed border-black">
     {data.map((item, index) => (
         <TimelineEntry key={index} data={item} />
     ))}
-    </ul>
+    </div>
+    
   );
 }

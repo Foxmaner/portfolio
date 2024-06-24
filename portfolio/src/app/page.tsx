@@ -2,6 +2,7 @@ import Image from "next/image";
 import { AnimatedTooltip } from "./components/ui/animated-tooltip";
 //https://www.flaticon.com/free-icons/programming-language
 import { programming_icons } from "./utils/data"
+import TimelineGraph from "./components/timelineGraph";
 
 
 export default function Home() {
@@ -23,6 +24,12 @@ export default function Home() {
       <div className="flex flex-row items-center justify-center mb-10 w-full">
         <AnimatedTooltip items={programming_icons} />
       </div>
+      <div className="flex">
+        <h1 className="w-1/2 text-center text-1xl">
+          Utbildning
+        </h1>
+      </div>
+      <TimelineGraph />
     </main>
   );
 }

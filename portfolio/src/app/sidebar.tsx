@@ -22,15 +22,22 @@ export default function Sidebar() {
             <p>eskil.brann@gmail.com</p>
             <h3 className='font-bold'>Github</h3>
 
-        
+
             <LinkPreview
                 url="https://github.com/Foxmaner"
                 className="text-black">
-                <p>Foxmaner</p>
+                <p>Besök här!</p>
             </LinkPreview>
-            
+
             <h3 className='font-bold'>CV</h3>
-            <p>Ladda ner här!</p>
+            <LinkPreview
+                url="/files/Eskil_Brännerud_CV.pdf"
+                imageSrc="/files/thumbnail-cv.png"
+                isStatic
+                className=""
+            >
+                <p>Ladda ner!</p>
+            </LinkPreview>
 
             <h1 className='font-bold text-2xl'>Programmeringsspråk</h1>
 

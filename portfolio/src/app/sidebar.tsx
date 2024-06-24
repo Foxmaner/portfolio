@@ -12,7 +12,7 @@ export default function Sidebar() {
                 width={400}
                 height={400}
                 alt="Picture of the author"
-                className="w-full"
+                
             />
             <h3 className='font-bold'>Location</h3>
             <p>Linköping, Sweden</p>

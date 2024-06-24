@@ -5,7 +5,7 @@ export default function timelineEntry({ data }: { data: any }) {
 
   return (
     <div className="relative w-full">
-      <div className="absolute -top-0.5 z-10 -ml-2.5 h-5 w-5 rounded-full justify-center bg-blue-600">
+      <div className="absolute z-10 -ml-2.5 h-5 w-5 rounded-full justify-center bg-blue-500">
         
       </div>
       <div className="ml-6">

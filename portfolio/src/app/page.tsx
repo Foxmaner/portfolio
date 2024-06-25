@@ -22,7 +22,7 @@ export default function Home() {
     {
       "startDate": "Aug-2021",
       "endDate": "Currently studying",
-      "title": "Kungliga Tekniska Högskolan",
+      "title": "Linköpings universitet",
       "description": "Civilingenjör i mjukvaruteknik"
     },
   ];
@@ -53,6 +53,9 @@ export default function Home() {
       <p className=" text-1xl">
         Hej och välkommen till min hemsida! Mitt namn är Eskil och studerar nu
         4:e året som Civilingenjör i Mjukvaruteknik på Linköpings universitet.
+        Jag är en ambitiös och driven person som alltid strävar efter att utvecklas och lära mig nya saker.
+        Jag är öppen för nya utmaningar och ser fram emot att få möjligheten att arbeta med spännande projekt.
+
       </p>
 
 

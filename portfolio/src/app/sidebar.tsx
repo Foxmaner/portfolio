@@ -49,6 +49,11 @@ export default function Sidebar() {
 
             <h1 className='font-bold text-2xl'>Färdigheter</h1>
             <div className="border-t border-2 border-black mx-auto w-1/2 m-2"></div>
+            <ul>
+                <li>Verktyg: Git, Visual Studio Code, IntelliJ IDEA</li>
+                <li>Övrigt: Agil utveckling/Scrum, Testning </li>
+                <li>Operativsystem: Linux, Windows</li>
+            </ul>
         </header>
     );
 }

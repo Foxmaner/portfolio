@@ -12,6 +12,7 @@ export default function Sidebar() {
                 width={400}
                 height={400}
                 alt="Picture of the author"
+                className="mx-auto rounded-full md:rounded-none"
                 
             />
             <h3 className='font-bold'>Location</h3>

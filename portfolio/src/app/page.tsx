@@ -29,6 +29,12 @@ export default function Home() {
 
   var experienceData = [
     {
+      "startDate": "Aug-2024",
+      "endDate": "Nuvarande jobb",
+      "title": "Kårservice Östergötland",
+      "description": "Dagsansvarig på Kårhuset Kollektivet"
+    },
+    {
       "startDate": "Aug-2019",
       "endDate": "Jul-2020",
       "title": "Postnord",
@@ -65,7 +71,7 @@ export default function Home() {
         </h1>
 
       </div>
-      <div className="border-t border-2 border-black w-1/5"></div>
+      <div className="border-t border-2 border-black w-1/5 m-1" ></div>
       <TimelineGraph data={experienceData} />
 
 
@@ -74,7 +80,7 @@ export default function Home() {
           Utbildning
         </h1>
       </div>
-      <div className="border-t border-2 border-black w-1/5"></div>
+      <div className="border-t border-2 border-black w-1/5 m-1"></div>
       <TimelineGraph data={schoolData} />
     </main>
   );

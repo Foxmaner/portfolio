@@ -21,11 +21,18 @@ export default function Sidebar() {
             <a href="tel:+46702151716">070-215 17 16</a>
             <h3 className='font-bold'>Email</h3>
             <a href="mailto:eskil.brann@gmail.com">eskil.brann@gmail.com</a>
+
             <h3 className='font-bold'>Github</h3>
-
-
             <LinkPreview
                 url="https://github.com/Foxmaner"
+                className="text-black">
+                <p>Besök här!</p>
+            </LinkPreview>
+
+
+            <h3 className='font-bold'>Linkedin</h3>
+            <LinkPreview
+                url="https://www.linkedin.com/in/eskil-brann/"
                 className="text-black">
                 <p>Besök här!</p>
             </LinkPreview>

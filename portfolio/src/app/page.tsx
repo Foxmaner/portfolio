@@ -8,10 +8,10 @@ import TimelineGraph from "./components/timelineGraph";
 export default function Home() {
   var schoolData = [
     {
-      "startDate": "Aug-2016",
-      "endDate": "Jun-2019",
-      "title": "Nacka Gymnasium",
-      "description": "Tekniska programmet med inriktning Informations och medieteknik"
+      "startDate": "Aug-2021",
+      "endDate": "Currently studying",
+      "title": "Linköpings universitet",
+      "description": "Civilingenjör i mjukvaruteknik"
     },
     {
       "startDate": "Aug-2020",
@@ -20,10 +20,10 @@ export default function Home() {
       "description": "Högskoleingenjör i datateknik (Slutförde ej)"
     },
     {
-      "startDate": "Aug-2021",
-      "endDate": "Currently studying",
-      "title": "Linköpings universitet",
-      "description": "Civilingenjör i mjukvaruteknik"
+      "startDate": "Aug-2016",
+      "endDate": "Jun-2019",
+      "title": "Nacka Gymnasium",
+      "description": "Tekniska programmet med inriktning Informations och medieteknik"
     },
   ];
 
@@ -35,16 +35,31 @@ export default function Home() {
       "description": "Dagsansvarig på Kårhuset Kollektivet"
     },
     {
-      "startDate": "Aug-2019",
-      "endDate": "Jul-2020",
-      "title": "Postnord",
-      "description": "Brevbärare"
+      "startDate": "Juli-2024",
+      "endDate": "Juli-2024",
+      "title": "JA Service Arenaspecialisterna",
+      "description": "Arrangemangsstädare"
     },
     {
       "startDate": "Jul-2017",
       "endDate": "Aug-2023",
       "title": "Glabo Gokart & Paintball",
       "description": "Instruktör"
+    },
+    {
+      "startDate": "Aug-2019",
+      "endDate": "Jul-2020",
+      "title": "Postnord",
+      "description": "Brevbärare"
+    },
+  ];
+
+  var idealWorkData = [
+    {
+      "startDate": "Jul-2023",
+      "endDate": "Jul-2024",
+      "title": "Festeriet F-Cellen",
+      "description": "Baransvarig"
     },
   ];
 
@@ -82,6 +97,14 @@ export default function Home() {
       </div>
       <div className="border-t border-2 border-black w-1/5 m-1"></div>
       <TimelineGraph data={schoolData} />
+
+      <div className="flex">
+        <h1 className="font-bold text-2xl">
+          Ideelt arbete
+        </h1>
+      </div>
+      <div className="border-t border-2 border-black w-1/5 m-1"></div>
+      <TimelineGraph data={idealWorkData} />
     </main>
   );
 }

@@ -32,7 +32,7 @@ export default function Sidebar() {
 
             <h3 className='font-bold'>Linkedin</h3>
             <LinkPreview
-                url="https://www.linkedin.com/in/eskil-brann/"
+                url="www.linkedin.com/in/eskil-brann"
                 className="text-black">
                 <p>Besök här!</p>
             </LinkPreview>

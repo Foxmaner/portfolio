@@ -9,7 +9,7 @@ export default function Home() {
   var schoolData = [
     {
       "startDate": "Aug-2021",
-      "endDate": "Currently studying",
+      "endDate": "Studerar fortfarande",
       "title": "Linköpings universitet",
       "description": "Civilingenjör i mjukvaruteknik"
     },

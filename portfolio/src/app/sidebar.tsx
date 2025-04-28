@@ -62,6 +62,9 @@ export default function Sidebar() {
                 <li>Övrigt: Agil utveckling/Scrum, Testning </li>
                 <li>Operativsystem: Linux, Windows</li>
             </ul>
+            <h1 className='font-bold text-2xl'>Hemsidan</h1>
+            <div className="border-t border-2 border-black mx-auto w-1/2 m-2"></div>
+            <p>Denna hemmsida är byggd av mig själv i NextJS med hjälp av Typescript och Tailwind</p>
         </header>
     );
 }

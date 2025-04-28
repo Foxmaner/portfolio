@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="flex flex-col md:flex-row max-w-full">
-          <div className="md:min-w-500 shadow-2xl md:h-screen w-full md:w-auto">
+          <div className="md:min-w-500 shadow-2xl w-full md:w-auto">
             <Sidebar />
           </div>
           <div className="md:min-w-3/4 w-full">

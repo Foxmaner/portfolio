@@ -11,7 +11,7 @@ export default function Home() {
       "startDate": "Aug-2021",
       "endDate": "Studerar fortfarande",
       "title": "Linköpings universitet",
-      "description": "Civilingenjör i mjukvaruteknik"
+      "description": "Civilingenjör i mjukvaruteknik (4:e året, Master inom säkra system)"
     },
     {
       "startDate": "Aug-2020",
@@ -29,14 +29,20 @@ export default function Home() {
 
   var experienceData = [
     {
+      "startDate": "Jun-2025",
+      "endDate": "Aug-2025",
+      "title": "Augmatica",
+      "description": "Sommarjobb som mjukvaruutvecklare"
+    },
+    {
       "startDate": "Aug-2024",
       "endDate": "Nuvarande jobb",
       "title": "Kårservice Östergötland",
       "description": "Dagsansvarig på Kårhuset Kollektivet"
     },
     {
-      "startDate": "Juli-2024",
-      "endDate": "Juli-2024",
+      "startDate": "Jul-2024",
+      "endDate": "Jul-2024",
       "title": "JA Service Arenaspecialisterna",
       "description": "Arrangemangsstädare"
     },
@@ -74,9 +80,7 @@ export default function Home() {
       <p className=" text-1xl">
         Hej och välkommen till min hemsida! Mitt namn är Eskil och studerar nu
         4:e året som Civilingenjör i Mjukvaruteknik på Linköpings universitet.
-        Jag är en ambitiös och driven person som alltid strävar efter att utvecklas och lära mig nya saker.
-        Jag är öppen för nya utmaningar och ser fram emot att få möjligheten att arbeta med spännande projekt.
-
+        Jag har nu påbörjat min master inom säkra system.
       </p>
 
 
